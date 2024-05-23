@@ -1,6 +1,9 @@
 The scripts in this folder are part of the Google Forms series.
 
-# Get-GoogleFormData.ps1
+# Frontend PowerShell with Google Forms: Part 1 Getting your data
+(Watch the video for this content)[https://www.youtube.com/watch?v=ZqAShden9qA]
+
+## Get-GoogleFormData.ps1
 This script demonstrates how you can get data from a Google Sheet that is attached to a Google Form. And how you can update the sheet to mark lines that have been processed.
 
 ## Requirements 

@@ -1,6 +1,7 @@
 <#
 This script demonstrates how you can get data from a Google Sheet that is attached to a Google Form. 
 And how you can update the sheet to mark lines that have been processed.
+Video: https://www.youtube.com/watch?v=ZqAShden9qA
 #>
 $fileName = 'Your sheet name'
 $sheetName = 'Form Responses 1'
