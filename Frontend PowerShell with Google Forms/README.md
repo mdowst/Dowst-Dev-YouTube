@@ -25,7 +25,7 @@ Set-Secret -Name 'your-secret' -Secret $JsonContent -Vault GoogleForms
 ----
 
 # Frontend PowerShell with Google Forms: Part 2 Replying with Gmail
-(Watch the video for this content)[https://www.youtube.com/watch?v=ZqAShden9qA]
+(Watch the video for this content)[https://youtu.be/5gCtq6ZlwOs]
 
 ## Send-EmailFromForm.ps1
 This script builds upon the Get-GoogleFormData.ps1 script to add custom email replies from a Google form.
