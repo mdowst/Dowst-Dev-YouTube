@@ -140,8 +140,8 @@ Function Get-SheetColumn {
 # Get Access Token
 $GetGOAuthTokenServiceParam = @{
     scope      = "https://www.googleapis.com/auth/drive"
-    iss        = "posh-760@formdevelopment.iam.gserviceaccount.com"
-    jsonString = (Get-Secret -Name 'posh-760' -Vault GoogleForms -AsPlainText)
+    iss        = "<you service account>"
+    jsonString = (Get-Secret -Name '<you secret>' -Vault GoogleForms -AsPlainText)
 }
 $accessToken = Get-GOAuthTokenService @GetGOAuthTokenServiceParam | Where-Object { $_ }
 
