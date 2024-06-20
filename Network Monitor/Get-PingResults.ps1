@@ -1,3 +1,4 @@
+# From the video Monitor Your Network with PowerShell - https://youtu.be/NsCWmYjP9F4
 # Import the CSV from Invoke-PingTest.ps1
 $import = Import-Csv "<Your CSV File>"
 
