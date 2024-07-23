@@ -80,7 +80,7 @@ $TestObjects = $TestIpAddresses | ForEach-Object {
     } 
 } 
 
-# RUn the pings in parallel and write results to the SQLite database
+# Run the pings in parallel and write results to the SQLite database
 $TestObjects | ForEach-Object -Parallel { 
     # Create a stopwatch to ensure the while loop runs for the number of minutes specified
     $timer = [system.diagnostics.stopwatch]::StartNew() 
